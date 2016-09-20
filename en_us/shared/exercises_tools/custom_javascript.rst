@@ -162,9 +162,9 @@ JavaScript Input Problem Code
    shape to select and unselect it.
 
  - The response is graded as correct if the cone is selected (yellow) when the
-   user selects **Check**.
+   user selects **Submit**.
 
- - Selecting **Check** or **Save** registers the problem's current state.
+ - Selecting **Submit** or **Save** registers the problem's current state.
 
 
 .. _JS Input Problem XML:
@@ -244,7 +244,7 @@ Required Attributes
 * **gradefn**
 
   The **gradefn** attribute specifies the name of the function that will be
-  called when a user selects **Check**, and that returns the learner's answer.
+  called when a user selects **Submit**, and that returns the learner's answer.
   Unless both the **get_statefn** and **set_statefn** attributes are also
   used, this answer is passed as a string to the enclosing response type. In
   the **customresponse** example above, this means **cfn** will be passed this

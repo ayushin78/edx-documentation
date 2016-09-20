@@ -22,7 +22,7 @@ Feedback in Response to Attempted Answers
 You can add feedback that displays to learners after they submit an answer.
 
 For example, the following multiple choice problem provides feedback in
-response to the selected option when the learner selects **Check**. In this
+response to the selected option when the learner selects **Submit**. In this
 case, feedback is given for an incorrect answer.
 
 .. image:: ../../../shared/images/multiple_choice_feedback.png

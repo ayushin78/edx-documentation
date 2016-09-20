@@ -6,6 +6,7 @@ The Learner View of a Problem
 
 All problems on the edX platform have several component parts.
 
+.. this image needs updating
 .. image:: ../../../shared/images/AnatomyOfExercise1.png
   :alt: A problem from a learner's point of view, with numbered callouts for
        elements of the problem.
@@ -19,10 +20,10 @@ All problems on the edX platform have several component parts.
 #. **Rendered answer.** For some problem types, the LMS uses MathJax to render
    plain text as "beautiful math."
 
-#. **Check.** The learner selects **Check** to submit a response or find out if
+#. **Submit.** The learner selects **Submit** to submit a response or find out if
    his answer is correct. If the answer is correct, a green check mark appears.
-   If it is incorrect, a red X appears. When a learner selects **Check**, the
-   LMS saves the grade and current state of the problem.
+   If it is incorrect, a red X appears. When a learner selects **Submit**, the
+   LMS saves the grade and current state of the problem. The **Submit** button remains available if the learner has unused attempts remaining.
 
 #. **Save.** The learner can select **Save** to save his current response
    without submitting it for a grade. This allows the learner to stop working
@@ -40,13 +41,14 @@ All problems on the edX platform have several component parts.
    changed to a specific number, the **Maximum Attempts** setting for
    individual problems defaults to that number, and cannot be set to unlimited.
 
+.. this image needs updating
    .. image:: ../../../shared/images/AnatomyOfExercise2.png
     :alt: A problem from a learner's point of view, with numbered callouts for
           attempts and showing the answer.
     :width: 500
 
-#. **Feedback.** After a learner selects **Check**, all problems return a green
-   check mark or a red X.
+#. **Feedback.** After a learner selects **Submit**, all problems return a
+   green check mark or a red X.
 
 #. **Correct answer.** Most problems require that you specify a single correct
    answer.
@@ -67,6 +69,7 @@ All problems on the edX platform have several component parts.
 
 #. **Hide Answer.**
 
+.. this image needs updating
    .. image:: ../../../shared/images/AnatomyOfExercise3.png
     :alt: A section and its subsections in the course navigation pane, with
         numbered callouts for the graded content icon and the due date.
@@ -77,11 +80,11 @@ All problems on the edX platform have several component parts.
    or that assignment in the course navigation pane.
 
 #. **Due date.** The date that the problem is due. A problem that is past due
-   does not offer a **Check** option. It also does not accept answers or
+   does not offer a **Submit** option. It also does not accept answers or
    provide feedback.
 
 .. note:: Problems can be **open** or **closed**. Closed problems do not
-          have a **Check** option. Learners can still see questions, solutions,
+          have a **Submit** option. Learners can still see questions, solutions,
           and revealed explanations, but they cannot check their work, submit
           responses, or change an earlier score.
 

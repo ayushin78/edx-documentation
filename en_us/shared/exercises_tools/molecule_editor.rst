@@ -131,7 +131,7 @@ Problem Component Code
 
   <problem>
   <p>The dopamine molecule, as shown, cannot make ionic bonds. Edit the dopamine molecule so it can make ionic bonds.</p>
-  <p>When you are ready, click Check. If you need to start over, click Reset.</p>
+  <p>When you are ready, select Submit. If you need to start over, select Reset.</p>
     <script type="loncapa/python">
   def check1(expect, ans):
       import json

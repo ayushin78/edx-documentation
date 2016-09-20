@@ -476,10 +476,10 @@ You can choose the following options for the **Randomization** setting.
      - Description
    * - **Always**
      - Learners see a different version of the problem each time they select
-       Check.
+       **Submit**.
    * - **On Reset**
      - Learners see a different version of the problem each time they select
-       Reset.
+       **Reset**.
    * - **Never**
      - All learners see the same version of the problem. For most courses, this
        option is supplied by default. Select this option for every problem in
@@ -503,8 +503,7 @@ options define when the answer is shown to learners.
    :widths: 15 70
 
    * - **Always**
-     - Always show the answer when the learner selects the **Show Answer**
-       button.
+     - Always show the answer when the learner selects **Show Answer**.
    * - **Answered**
      - Show the answer after the learner tries to answer the problem.
 
@@ -596,7 +595,7 @@ promote increased engagement with course assignments.
 When you add multiple questions to a single problem component, the settings
 that you define, including the display name and whether to show the **Reset**
 button, apply to all of the questions in that component. The answers to all of
-the questions are submitted when learners select **Check**, and the correct
+the questions are submitted when learners select **Submit**, and the correct
 answers for all of the questions appear when learners select **Show Answer**.
 By default, learners receive one point for each question they answer correctly.
 For more information about changing the default problem weight and other
