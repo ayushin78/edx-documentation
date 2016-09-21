@@ -36,9 +36,9 @@ problem types.
 * :ref:`Molecule Editor`
 * :ref:`Protein Builder`
 
-*****************************************************
-Create a Custom Python-Evaluated Input Problem Studio
-*****************************************************
+********************************************************
+Create a Custom Python-Evaluated Input Problem in Studio
+********************************************************
 
 #. In the unit where you want to create the problem, select **Problem** under
    **Add New Component**, and then select the **Advanced** tab.

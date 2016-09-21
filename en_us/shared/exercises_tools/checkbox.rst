@@ -242,7 +242,7 @@ whether learners select a given option or leave it unselected.
 
 ::
 
-  >>Which of the following is an example of a fruit?||Check all that apply.<<
+  >>Which of the following is an example of a fruit?||Select all that apply.<<
 
   [x] apple {{ selected: You are correct that an apple is a fruit because it
   is the fertilized ovary that comes from an apple tree and contains seeds. },
@@ -326,7 +326,7 @@ unselected.
   <problem>
     <choiceresponse>
       <label>Which of the following is an example of a fruit?</label>
-      <description>Check all that apply.</description>
+      <description>Select all that apply.</description>
       <checkboxgroup>
         <choice correct="true">apple
           <choicehint selected="true">You are correct that an apple is a fruit
@@ -510,7 +510,7 @@ updated to provide partial credit.
   <problem>
     <choiceresponse partial_credit="EDC">
       <label>Which of the following is a fruit?</label>
-      <description>Check all that apply.</description>
+      <description>Select all that apply.</description>
       <checkboxgroup>
         <choice correct="true">apple</choice>
         <choice correct="true">pumpkin</choice>
@@ -684,7 +684,7 @@ halves.
   <problem>
     <choiceresponse partial_credit="halves">
       <label>Which of the following is a fruit?</label>
-      <description>Check all that apply.</description>
+      <description>Select all that apply.</description>
       <checkboxgroup>
         <choice correct="true">apple</choice>
         <choice correct="true">pumpkin</choice>
