@@ -100,4 +100,4 @@ visible. You can set these attributes in Studio.
    :ref:`Randomization`.
 
 *  **Weight.** Different problems in a particular problem set can be
-   given different weights.
+   given different weights. For more information, see :ref:`Problem Weight`.
