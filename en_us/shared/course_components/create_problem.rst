@@ -514,9 +514,6 @@ options define when the answer is shown to learners.
        is reset, the problem is still considerd to have been attempted, but is
        not considered to be answered.)
 
- .. Shelby, is the existing description for "Answered" (above) correct, or should it be  "only after the learner has answered the problem **correctly**" or "after the learner has used all available attempts"? Otherwise, it seems to be the same as "Attempted".
-
-
    * - **Attempted**
      - Show the answer only after the learner tries to answer the problem.
 
