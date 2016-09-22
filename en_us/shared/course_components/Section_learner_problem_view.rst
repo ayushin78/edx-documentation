@@ -8,10 +8,10 @@ All problems on the edX platform have these component parts, some of which can
 be configured. For configurable options, you can specify whether and when
 an option is available in problems.
 
-.. image:: ../../../shared/images/AnatomyOfExercise1.png
+.. image:: ../../../shared/images/AnatomyOfExercise.png
   :alt: A problem from a learner's point of view, with numbered callouts for
        elements of the problem.
-  :width: 400
+  :width: 600
 
 #. **Problem text.** The problem text can contain any standard HTML formatting.
 
@@ -21,10 +21,11 @@ an option is available in problems.
 #. **Rendered answer.** For some problem types, the LMS uses MathJax to render
    plain text as "beautiful math."
 
-#. **Submit.** The learner selects **Submit** to submit a response or find out if
-   his answer is correct. If the answer is correct, a green check mark appears.
-   If it is incorrect, a red X appears. When a learner selects **Submit**, the
-   LMS saves the grade and current state of the problem. The **Submit** button remains available if the learner has unused attempts remaining.
+#. **Submit.** When a learner selects **Submit** to submit a response for a
+   problem, the LMS saves the grade and current state of the problem. The LMS
+   immediately provides feedback about whether the response is correct or
+   incorrect, as well as the problem score. The **Submit** button remains
+   available if the learner has unused attempts remaining so that she can try to answer the problem again.
 
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
@@ -60,15 +61,10 @@ an option is available in problems.
    button is available for a problem. If a learner selects **Show Answer**,
    the learner sees both the correct answer and the explanation, if any.
 
-.. image:: ../../../shared/images/AnatomyOfExercise2.png
-  :alt: A problem from a learner's point of view, with numbered callouts for
-       elements of the problem.
-  :width: 400
-
 #. **Feedback.** After a learner selects **Submit**, a green check mark or a
    red X appears beside the response field or the learner's selection.
    Underneath the problem, feedback text indicates whether the answer was
-   correct or incorrect, and provides the score for the problem.
+   correct or incorrect, and shows the problem score.
 
 #. **Correct answer.** Most problems require that you specify a single correct
    answer.
