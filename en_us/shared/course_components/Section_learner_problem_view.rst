@@ -4,9 +4,10 @@
 The Learner View of a Problem
 ************************************
 
-All problems on the edX platform have several component parts.
+All problems on the edX platform have these component parts, some of which can
+be configured. For configurable options, you can specify whether and when
+an option is available in problems.
 
-.. this image needs updating
 .. image:: ../../../shared/images/AnatomyOfExercise1.png
   :alt: A problem from a learner's point of view, with numbered callouts for
        elements of the problem.
@@ -25,15 +26,6 @@ All problems on the edX platform have several component parts.
    If it is incorrect, a red X appears. When a learner selects **Submit**, the
    LMS saves the grade and current state of the problem. The **Submit** button remains available if the learner has unused attempts remaining.
 
-#. **Save.** The learner can select **Save** to save his current response
-   without submitting it for a grade. This allows the learner to stop working
-   on a problem and come back to it later.
-
-#. **Show Answer.** This button is optional. When the learner selects **Show
-   Answer**, the learner sees both the correct answer (see 2 above) and the
-   explanation (see 10 below). You define whether the **Show Answer** button is
-   visible.
-
 #. **Attempts.** You can set a specific number of attempts or allow unlimited
    attempts for a problem. By default, the course-wide **Maximum Attempts**
    advanced setting is null, meaning that the maximum number of attempts for
@@ -41,39 +33,48 @@ All problems on the edX platform have several component parts.
    changed to a specific number, the **Maximum Attempts** setting for
    individual problems defaults to that number, and cannot be set to unlimited.
 
-.. this image needs updating
-   .. image:: ../../../shared/images/AnatomyOfExercise2.png
-    :alt: A problem from a learner's point of view, with numbered callouts for
-          attempts and showing the answer.
-    :width: 500
+#. **Save.** The learner can select **Save** to save his current response
+   without submitting it for a grade. This allows the learner to stop working
+   on a problem and come back to it later.
 
-#. **Feedback.** After a learner selects **Submit**, all problems return a
-   green check mark or a red X.
+#. **Reset.** This button is optional. You can specify whether the **Reset**
+   button is available for a problem. This setting at the problem level
+   overrides the default setting for the course in **Advanced Settings**.
 
-#. **Correct answer.** Most problems require that you specify a single correct
-   answer.
-
-#. **Explanation.** You can include an explanation that appears when a learner
-   selects **Show Answer**.
-
-#. **Reset.** Learners can select **Reset** to clear any input that has not yet
-   been submitted, and try again to answer the question.
+   If the **Reset** button is available, learners can select **Reset** to
+   clear any input that has not yet been submitted, and try again to answer
+   the question.
 
    * If the learner has already submitted an answer, selecting **Reset** clears
      the submission and, if the problem includes a Python script to randomize
      variables and the randomization setting is **On Reset**, changes the
      values the learner sees in the problem.
 
+   * If the problem has already been answered correctly, **Reset** is not
+     available.
+
    * If the number of **Maximum Attempts** that was set for this problem has
-     been reached, **Reset** is not visible.
+     been reached, **Reset** is not available.
 
-#. **Hide Answer.**
+#. **Show Answer.** This button is optional. You can specify whether this
+   button is available for a problem. If a learner selects **Show Answer**,
+   the learner sees both the correct answer and the explanation, if any.
 
-.. this image needs updating
-   .. image:: ../../../shared/images/AnatomyOfExercise3.png
-    :alt: A section and its subsections in the course navigation pane, with
-        numbered callouts for the graded content icon and the due date.
-    :width: 200
+.. image:: ../../../shared/images/AnatomyOfExercise2.png
+  :alt: A problem from a learner's point of view, with numbered callouts for
+       elements of the problem.
+  :width: 400
+
+#. **Feedback.** After a learner selects **Submit**, a green check mark or a
+   red X appears beside the response field or the learner's selection.
+   Underneath the problem, feedback text indicates whether the answer was
+   correct or incorrect, and provides the score for the problem.
+
+#. **Correct answer.** Most problems require that you specify a single correct
+   answer.
+
+#. **Explanation.** You can include an explanation that appears when a learner
+   selects **Show Answer**.
 
 #. **Grading.** You can specify whether a group of problems is graded. If a
    group of problems is graded, an icon of a pen and a piece of paper appears
