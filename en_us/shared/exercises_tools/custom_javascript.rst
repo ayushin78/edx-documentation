@@ -31,7 +31,7 @@ Google Web Toolkit (GWT), to create your JS input problem.
   * The **Show Answer** button does not work for JS input problems. By
     default, the **Show Answer** option is set to **Never**. If you change
     this option in the problem component, a **Show Answer** button appears in
-    the LMS, but the button does not work.
+    the learner's view of the problem in the LMS, but the button does not work.
 
 .. note::
   You can make a calculator available to your learners on every unit

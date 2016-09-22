@@ -57,9 +57,10 @@ an option is available in problems.
    * If the number of **Maximum Attempts** that was set for this problem has
      been reached, **Reset** is not available.
 
-#. **Show Answer.** This button is optional. You can specify whether this
-   button is available for a problem. If a learner selects **Show Answer**,
-   the learner sees both the correct answer and the explanation, if any.
+#. **Show Answer.** This button is optional. You can specify whether this button
+   is available for a problem. If a learner selects **Show Answer**, the
+   learner sees both the correct answer and the explanation (if any), and can
+   no longer select **Submit** to submit a response to the problem.
 
 #. **Feedback.** After a learner selects **Submit**, a green check mark or a
    red X appears beside the response field or the learner's selection.
